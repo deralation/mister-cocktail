@@ -51,3 +51,4 @@ group :development do
 end
 
 gem 'rspec-rails', group: [ :test ]
+gem 'rspec-rails', group: [ :test ]
