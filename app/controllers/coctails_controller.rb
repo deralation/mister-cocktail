@@ -8,4 +8,9 @@ class CoctailsController < ApplicationController
   def delete
   end
 
+  def show
+  end
+
+
+
 end
