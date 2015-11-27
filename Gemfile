@@ -28,6 +28,8 @@ gem 'simple_form'
 
 gem 'figaro'
 
+gem "paperclip", "~> 4.3"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
