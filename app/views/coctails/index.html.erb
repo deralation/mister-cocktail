@@ -1,1 +1,12 @@
 <h1>Amazing Coctails</h1>
+
+<% if @coctails.empty? %>
+  <p><%= link_to 'Do you wanna drink new Coctail?"', new_coctail_path %>?</p>
+  <% else %>
+  <% @coctails.each do |coctail| %>
+    <%= link_to 'coctail details', coctail_path(coctail) %>
+    <%= link_to 'dose', new_coctail_dose_path(coctail) %>
+  <% end %>
+<%end%>
+
+
