@@ -8,6 +8,7 @@
 <% @coctail.doses.each do |dose| %>
 <ul>
 <li><%= dose.description %> <%= dose.ingredient.name %> <%= link_to 'Delete dose', coctail_dose_path(@coctail, dose), method: :delete, data: { confirm: "Are you sure?" }%></li>
+<%= image_tag @post.picture.url(:medium) %>
 </ul>
 <% end %>
 
